@@ -1,0 +1,12 @@
+{
+    "dependencies": {
+        "@babel/core": "^7.0.0-beta.42",
+        "@babel/generator": "^7.0.0-beta.42",
+        "@babel/plugin-syntax-dynamic-import": "^7.0.0-beta.42",
+        "@babel/preset-env": "^7.0.0-beta.42",
+        "@babel/traverse": "^7.0.0-beta.42",
+        "@babel/types": "^7.0.0-beta.42",
+        "hash-sum": "^1.0.2",
+        "posthtml": "^0.11.3"
+    }
+}
