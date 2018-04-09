@@ -1,6 +1,29 @@
 # san-webpack-loader
 🌈 a webpack-v4 loader for San.js ☄️
 
+![san-webpack-loade](http://ov35lvdq9.bkt.clouddn.com/san-webpack-loader.gif)
+
+## install
+
+```js
+  npm install san-webpack-loader
+  or
+  yarn add san-webpack-loader
+```
+## usage
+
+```js
+@file: webpack.config.js
+{
+  test: /\.san$/,
+  include: resolve('src'),
+  use: [
+    {loader: 'babel-loader?cacheDirectory=true'},
+    {loader: 'san-webpack-loader'}
+  ]
+}
+```
+
 ## 重写的初衷 AOT vs JIT
 1. 避免运行时编译的代价
 2. 避免把编译器发送到浏览器里
@@ -27,13 +50,5 @@
 5. 有文档 📖
 6. 更好的业务服务集成
 
-## 设计
-1. css仅支持原生css/stylus/postcss，支持1个 `<style>`标签，一个scoped 一个全局
-2. esModule only, babel-loader转码
-3. template 仅支持原生html模板
-4. 组件级别热重载 ？？
-5. `scoped`组件模拟css作用域 【已废弃】
-6. 导出对象为Object对象/Component?
-7. template 支持template expression
-8. css in js 方案？
-9. 语法检查集成？
+## LISENCE
+  MIT
