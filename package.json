@@ -1,4 +1,11 @@
 {
+    "name": "san-webpack-loader",
+    "version": "1.0.0",
+    "description": "🌈 a webpack-v4 loader for San.js ☄️",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
     "dependencies": {
         "@babel/core": "^7.0.0-beta.42",
         "@babel/generator": "^7.0.0-beta.42",
@@ -6,7 +13,28 @@
         "@babel/preset-env": "^7.0.0-beta.42",
         "@babel/traverse": "^7.0.0-beta.42",
         "@babel/types": "^7.0.0-beta.42",
-        "hash-sum": "^1.0.2",
-        "posthtml": "^0.11.3"
-    }
+        "posthtml": "^0.11.3",
+        "mini-css-extract-plugin": "^0.4.0",
+        "san": "^3.5.1",
+        "loader-utils": "^1.1.0"
+    },
+    "devDependencies": { },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jiangjiu/san-webpack-loader.git"
+    },
+    "keywords": [
+        "san",
+        "loader",
+        "webpack4"
+    ],
+    "author": "zhangsiyuan",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jiangjiu/san-webpack-loader/issues"
+    },
+    "homepage": "https://github.com/jiangjiu/san-webpack-loader#readme"
 }
