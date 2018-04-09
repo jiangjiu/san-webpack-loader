@@ -16,7 +16,7 @@
 @file: webpack.config.js
 {
   test: /\.san$/,
-  include: resolve('src'),
+  include: /src/,
   use: [
     {loader: 'babel-loader?cacheDirectory=true'},
     {loader: 'san-webpack-loader'}
