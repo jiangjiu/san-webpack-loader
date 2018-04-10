@@ -1,6 +1,10 @@
 # san-webpack-loader
 🌈 a webpack-v4 loader for San.js ☄️
 
+![](https://img.shields.io/github/release/jiangjiu/san-webpack-loader.svg)
+![](http://progressed.io/bar/80?title=done)
+![](https://img.shields.io/npm/dt/san-webpack-loader.svg)
+
 ![san-webpack-loade](http://ov35lvdq9.bkt.clouddn.com/san-webpack-hot.gif)
 
 ## install
