@@ -2,7 +2,7 @@
 # 特性
 ## 组件级别热重载
 
-![san-webpack-loade](htp://ov35lvdq9.bkt.clouddn.com/san-webpack-hot.gif)
+![san-webpack-loade](http://ov35lvdq9.bkt.clouddn.com/san-webpack-hot.gif)
 
 `san-webpack-loader` 引入了`san-hot-reload-api`这个库作为hot-reload的控制器，分别会在组件生命周期的`attached`和`detached`钩子中注入相应的代码以便在每一次组件更新时完成相应的更新和销毁逻辑。
 
