@@ -1,7 +1,7 @@
 # san-webpack-loader
 🌈 a webpack-v4 loader for San.js ☄️
 
-![san-webpack-loade](http://ov35lvdq9.bkt.clouddn.com/san-webpack-loader.gif)
+![san-webpack-loade](http://ov35lvdq9.bkt.clouddn.com/san-webpack-hot.gif)
 
 ## install
 
