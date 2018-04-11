@@ -1,6 +1,6 @@
 {
     "name": "san-webpack-loader",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "🌈 a webpack-v4 loader for San.js ☄️",
     "main": "index.js",
     "directories": {
