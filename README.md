@@ -20,6 +20,8 @@
 
 ```js
 @file: webpack.config.js
+
+// make sure the process.env.NODE_ENV is 'production' or 'development'
 {
   test: /\.san$/,
   include: /src/,
