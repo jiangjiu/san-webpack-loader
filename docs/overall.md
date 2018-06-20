@@ -22,6 +22,7 @@
 5. 通过template literal静态连接模板和js
 6. 更少的构建时间
 7. 去除无用或少用的代码、配置
+8. 文件缓存
 
 ## TODO
 1. webpack4 Boilerplate && 多线程优化

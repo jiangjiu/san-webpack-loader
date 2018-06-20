@@ -30,6 +30,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 ### 生产环境
 - 模板压缩
 - 使用 `MiniCssExtractPlugin`
+- 使用 `cache-loader` 做文件缓存
 
 
 ## 组件的标签限制
