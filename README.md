@@ -34,9 +34,16 @@
 
 
 ## TODO
-1. webpack4 Boilerplate 多线程优化
+1. ~~webpack4 Boilerplate 多线程优化~~
 2. css in js 方案
 
+## CHANGELOG
+
+### 1.1.0
+    [新特性]
+    - 升级babel依赖
+    - 增加cache-loader options做文件缓存  需要安装cache-loader
+    - 生产环境默认关闭sourcemap
 
 ## License
   MIT
