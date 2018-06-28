@@ -1,9 +1,10 @@
 
 <div align="center">
+    <img src="https://b.bdstatic.com/searchbox/icms/searchbox/img/san-icon.png"></img>
     <h1> san-webpack-loader</h1>
+    <p>🌈 a webpack-v4 loader for San.js ☄️</p>
 </div> 
 
-🌈 a webpack-v4 loader for San.js ☄️
 
 [文档请点这里](https://jiangjiu.github.io/san-webpack-loader/#/README)
 
