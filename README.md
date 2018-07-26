@@ -43,6 +43,11 @@
 2. css in js 方案
 
 ## CHANGELOG
+
+### 1.1.3
+    [BUG修复] 
+    - 修复了windows环境下样式路径失效的问题，对os做了区分处理
+    
 ### 1.1.2
     [BUG修复] 
     - 随官方升级babelrc的设置，推荐在业务中使用babel.config.js
