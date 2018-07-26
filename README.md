@@ -43,8 +43,11 @@
 2. css in js 方案
 
 ## CHANGELOG
-
-### 1.1.0
+### 1.1.2
+    [BUG修复] 
+    - 随官方升级babelrc的设置，推荐在业务中使用babel.config.js
+    
+### 1.1.1
     [新特性]
     - 升级babel依赖
     - 增加cache-loader options做文件缓存  需要安装cache-loader
