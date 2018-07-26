@@ -1,16 +1,16 @@
 {
     "name": "san-webpack-loader",
-    "version": "1.1.0",
+    "version": "1.1.2",
     "description": "🌈 a webpack-v4 loader for San.js ☄️",
     "main": "index.js",
     "directories": {
         "lib": "lib"
     },
     "dependencies": {
-        "@babel/core": "^7.0.0-beta.51",
-        "@babel/generator": "^7.0.0-beta.51",
-        "@babel/traverse": "^7.0.0-beta.51",
-        "@babel/types": "^7.0.0-beta.51",
+        "@babel/core": "^7.0.0-beta.54",
+        "@babel/generator": "^7.0.0-beta.54",
+        "@babel/traverse": "^7.0.0-beta.54",
+        "@babel/types": "^7.0.0-beta.54",
         "posthtml": "^0.11.3",
         "mini-css-extract-plugin": "^0.4.0",
         "san-hot-reload-api": "^1.0.0",
