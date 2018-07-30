@@ -44,19 +44,24 @@
 
 ## CHANGELOG
 
+
+### 1.2.0
+[update] 
+- 内部实现由同步loader改成异步，更好的利用多线程
+
 ### 1.1.3
-    [BUG修复] 
-    - 修复了windows环境下样式路径失效的问题，对os做了区分处理
+[BUG修复] 
+- 修复了windows环境下样式路径失效的问题，对os做了区分处理
     
 ### 1.1.2
-    [BUG修复] 
-    - 随官方升级babelrc的设置，推荐在业务中使用babel.config.js
+[BUG修复] 
+- 随官方升级babelrc的设置，推荐在业务中使用babel.config.js
     
 ### 1.1.1
-    [新特性]
-    - 升级babel依赖
-    - 增加cache-loader options做文件缓存  需要安装cache-loader
-    - 生产环境默认关闭sourcemap
+[新特性]
+- 升级babel依赖
+- 增加cache-loader options做文件缓存  需要安装cache-loader
+- 生产环境默认关闭sourcemap
 
 ## License
   MIT
