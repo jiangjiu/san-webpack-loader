@@ -52,6 +52,7 @@
 ### 1.1.3
 [BUG修复] 
 - 修复了windows环境下样式路径失效的问题，对os做了区分处理
+- 移除cache-loader，防止内联loader处理的样式文件被缓存后，无法被MiniCssExtractPlugin输出的问题
     
 ### 1.1.2
 [BUG修复] 
