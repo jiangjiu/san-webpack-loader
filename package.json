@@ -11,13 +11,15 @@
         "@babel/generator": "^7.0.0-beta.54",
         "@babel/traverse": "^7.0.0-beta.54",
         "@babel/types": "^7.0.0-beta.54",
-        "posthtml": "^0.11.3",
+        "html-minifier": "^3.5.20",
+        "loader-utils": "^1.1.0",
         "mini-css-extract-plugin": "^0.4.0",
-        "san-hot-reload-api": "^1.0.0",
+        "object-assign": "^4.1.1",
+        "posthtml": "^0.11.3",
         "san": "^3.6.0",
-        "loader-utils": "^1.1.0"
+        "san-hot-reload-api": "^1.0.0"
     },
-    "devDependencies": { },
+    "devDependencies": {},
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
