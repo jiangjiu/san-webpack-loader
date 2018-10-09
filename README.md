@@ -32,7 +32,14 @@
   include: /src/,
   use: [
     {loader: 'babel-loader?cacheDirectory=true'},
-    {loader: 'san-webpack-loader'}
+    {
+        loader: 'san-webpack-loader', options: {
+            stylus: stylusOptions,
+            hotReload: !isProduction,
+            sourceMap: isProduction,
+            minimize: isProduction
+        }
+    }
   ]
 }
 ```
