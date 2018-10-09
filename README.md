@@ -44,6 +44,13 @@
 
 ## CHANGELOG
 
+### 1.2.3
+[新特性]
+- 增加sass支持
+
+[内部变更]
+- isProduction改为config
+
 ### 1.2.2
 [新特性]
 - san-webpack-loader的options对象支持stylus属性，可以对.san文件中的stylus部分进行配置
