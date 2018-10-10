@@ -50,7 +50,9 @@
 2. css in js 方案
 
 ## CHANGELOG
-
+### 1.2.4
+[修复]
+- stylus options未设置，导致的报错
 ### 1.2.3
 [新特性]
 - 增加sass支持
