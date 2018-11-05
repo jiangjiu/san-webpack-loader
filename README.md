@@ -51,6 +51,10 @@
 
 ## CHANGELOG
 
+### 1.2.6
+[新特性]
+- 模板支持导出san-store的方式如： export default connect.san
+
 ### 1.2.5
 [修复]
 - 模板attrs大小写敏感，不会按照html标准进行转换，保留原样。1.2.3引入
