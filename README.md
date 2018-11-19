@@ -36,8 +36,7 @@
         loader: 'san-webpack-loader', options: {
             stylus: stylusOptions,
             hotReload: !isProduction,
-            sourceMap: isProduction,
-            minimize: isProduction
+            sourceMap: isProduction
         }
     }
   ]
@@ -50,6 +49,9 @@
 2. css in js 方案
 
 ## CHANGELOG
+### 1.2.7
+[修复]
+- 移除html-loader支持，避免模板写 {{var < 2}}报错的问题
 
 ### 1.2.6
 [新特性]
