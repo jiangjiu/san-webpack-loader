@@ -1,6 +1,6 @@
 {
     "name": "san-webpack-loader",
-    "version": "1.2.7",
+    "version": "1.3.2",
     "description": "🌈 a webpack-v4 loader for San.js ☄️",
     "main": "index.js",
     "directories": {
@@ -13,11 +13,11 @@
         "@babel/types": "^7.0.0-beta.54",
         "html-minifier": "^3.5.20",
         "loader-utils": "^1.1.0",
-        "mini-css-extract-plugin": "^0.4.0",
+        "mini-css-extract-plugin": "^0.6.0",
         "object-assign": "^4.1.1",
         "posthtml": "^0.11.3",
         "san": "^3.6.0",
-        "san-hot-reload-api": "^1.0.0"
+        "san-hot-reload-api": "^1.0.1"
     },
     "devDependencies": {},
     "scripts": {
