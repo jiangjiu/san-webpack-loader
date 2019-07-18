@@ -6,13 +6,12 @@
 </div> 
 
 
-[文档请点这里](https://jiangjiu.github.io/san-webpack-loader/#/README)
+
 
 ![](https://img.shields.io/github/release/jiangjiu/san-webpack-loader.svg)
 ![](http://progressed.io/bar/80?title=done)
 ![](https://img.shields.io/npm/dt/san-webpack-loader.svg)
 
-![san-webpack-loade](http://ov35lvdq9.bkt.clouddn.com/san-webpack-hot.gif)
 
 ## Install
 
@@ -49,6 +48,10 @@
 2. css in js 方案
 
 ## CHANGELOG
+### 1.3.2
+[内部变更] 
+- 去除style-loader, 使用minicss的hot reload
+
 ### 1.2.7
 [修复]
 - 移除html-loader支持，避免模板写 {{var < 2}}报错的问题
